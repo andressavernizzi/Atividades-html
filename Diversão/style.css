@@ -1,14 +1,27 @@
 *{
     margin: 0px;
     padding: 0px;
-    margin: 0px;
     background-color:rgb(231, 231, 169);
+}
+.navegacao{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(68, 70, 45);
+    
+}
+.link-home {
+    color: #000000;
+    text-decoration: none; 
+}
+.alinhar{
+    padding-top: 10px;
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 162, 241);
+    background-color: rgb(219, 205, 42);
     
     /* Defina a largura desejada */
     width: 300px;
@@ -17,8 +30,10 @@
     margin: 0 auto;
 
     /* Box Model */
-    border: 10px solid purple;
-    padding: 10px;
+    border: 10px solid rgb(92, 94, 1);
+    padding-top:2px ;
+    padding: 10px ;
+   
     /* margin: 15px; */ /* Remova a margem que estava interferindo */
 }
 .container2{
@@ -33,7 +48,7 @@
     background-color: rgb(68, 70, 45);
 }
 .button {
-    background-color: #c437e0;
+    background-color: rgb(219, 205, 42);
     border: none;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
@@ -52,8 +67,8 @@
     font-size: 24px;
 }
 .footer {
-    background-color: gray;
-    height: 50px;
+    background-color: rgb(68, 70, 45);
+    height: 100px;
     width: 100%;
     position: fixed;
     bottom: 0;

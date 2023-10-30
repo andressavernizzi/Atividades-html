@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navegacao">
+
+        <ul>
+            <p class="topper"></p>
+            <a class="container2" href="index.html">
+                <li>Home</li>
+            </a>
+        </ul>
+        <p class="footer"></p>
+    </nav>
+
+    <div>
+        <h2 class="container2" style="color: brown";>Contato</h2>
+        <br>
+        <br>
+        <div class="container2">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="" onkeyup="validarNome2()">
+        <div id="TXTNome"></div>
+         </div>
+        <br>
+        <div class="container2">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value="" onkeyup="validarEmail()">
+        <div id="TXTEmail"></div>
+        <br>
+        <br>
+        <br>
+        </div>
+        <br>
+        <div class="container2">
+        <label for="texto">Mensagem:</label>
+        <br>
+        <textarea name="text" id="text" cols="21" rows="5" onkeyup="validarText()"></textarea>
+        <div id="TXTtext"></div>
+    </div>
+        <br>
+        <div class="container2">
+        <input type="submit" value="Enviar" onclick="Enviar()">
+    </div>
+    </div>
+    
+   <!-- <div>
+        <p>Rua Sumidouro, 89</p>
+        <p>São Paulo - SP</p>
+
+        <iframe src="https://www.google.com/maps/place/R.+Sumidouro,+89+-+Pinheiros,+S%C3%A3o+Paulo+-+SP,+05428-070,+Brasil/@-23.5653847,-46.6989573,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce57a69aeb012b:0xb6585de2c5db4368!8m2!3d-23.5653896!4d-46.6963824!16s%2Fg%2F11csm0kdg8?entry=ttu" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>-->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
